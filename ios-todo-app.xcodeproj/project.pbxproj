@@ -19,6 +19,8 @@
 		CE4FC63618A1F4C800ECE757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4FC61E18A1F4C800ECE757 /* UIKit.framework */; };
 		CE4FC63E18A1F4C800ECE757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4FC63C18A1F4C800ECE757 /* InfoPlist.strings */; };
 		CE4FC64018A1F4C800ECE757 /* ios_todo_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4FC63F18A1F4C800ECE757 /* ios_todo_appTests.m */; };
+		CE4FC65118A202E000ECE757 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4FC64F18A202E000ECE757 /* TipViewController.m */; };
+		CE4FC65218A202E000ECE757 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4FC65018A202E000ECE757 /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		CE4FC63B18A1F4C800ECE757 /* ios-todo-appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-todo-appTests-Info.plist"; sourceTree = "<group>"; };
 		CE4FC63D18A1F4C800ECE757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE4FC63F18A1F4C800ECE757 /* ios_todo_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_todo_appTests.m; sourceTree = "<group>"; };
+		CE4FC64E18A202E000ECE757 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		CE4FC64F18A202E000ECE757 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		CE4FC65018A202E000ECE757 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				CE4FC62A18A1F4C800ECE757 /* AppDelegate.m */,
 				CE4FC62C18A1F4C800ECE757 /* Images.xcassets */,
 				CE4FC62118A1F4C800ECE757 /* Supporting Files */,
+				CE4FC64E18A202E000ECE757 /* TipViewController.h */,
+				CE4FC64F18A202E000ECE757 /* TipViewController.m */,
+				CE4FC65018A202E000ECE757 /* TipViewController.xib */,
 			);
 			path = "ios-todo-app";
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4FC65218A202E000ECE757 /* TipViewController.xib in Resources */,
 				CE4FC62518A1F4C800ECE757 /* InfoPlist.strings in Resources */,
 				CE4FC62D18A1F4C800ECE757 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4FC62B18A1F4C800ECE757 /* AppDelegate.m in Sources */,
+				CE4FC65118A202E000ECE757 /* TipViewController.m in Sources */,
 				CE4FC62718A1F4C800ECE757 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
