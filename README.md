@@ -1,2 +1,3 @@
-IOS TODO App
+Tip Calculator - iPhone App
+ 
 
